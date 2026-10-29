@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C08244" />
+      <stop offset="100%" stop-color="#875218" />
+    </linearGradient>
+    <linearGradient id="espressoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38220F" />
+      <stop offset="100%" stop-color="#200E01" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Emblem Badge -->
+  <g transform="translate(10, 8)">
+    <!-- Mountain Silhouette -->
+    <path d="M 12 45 L 26 22 L 35 34 L 46 16 L 60 45 Z" fill="#E5DFD7" opacity="0.9" />
+    <path d="M 26 22 L 31 30 L 22 36 Z" fill="#C08244" opacity="0.4" />
+    <path d="M 46 16 L 52 27 L 40 33 Z" fill="#C08244" opacity="0.4" />
+
+    <!-- Coffee Cup Outline -->
+    <path d="M 16 40 C 16 54 26 58 36 58 C 46 58 56 54 56 40 Z" fill="url(#espressoGrad)" />
+    <!-- Cup handle -->
+    <path d="M 54 42 C 60 42 62 48 58 52 C 55 53 53 50 53 49" fill="none" stroke="#38220F" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Saucer -->
+    <path d="M 10 60 C 20 63 52 63 62 60" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Steam swirls -->
+    <path d="M 28 35 C 26 27 33 24 30 16" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" opacity="0.85" />
+    <path d="M 36 34 C 38 25 32 21 37 13" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" opacity="0.85" />
+    <path d="M 44 35 C 43 28 48 24 45 17" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" opacity="0.85" />
+    
+    <!-- Small coffee bean emblem -->
+    <ellipse cx="36" cy="49" rx="4" ry="5.5" fill="#C08244" transform="rotate(20 36 49)" />
+    <path d="M 35 44 Q 37 49 35 54" fill="none" stroke="#200E01" stroke-width="1.2" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography -->
+  <text x="82" y="38" font-family="'Noto Serif', Georgia, serif" font-size="24" font-weight="700" fill="#200E01" letter-spacing="1.5">BREW HAVEN</text>
+  <text x="83" y="55" font-family="'Manrope', sans-serif" font-size="10" font-weight="600" fill="#875218" letter-spacing="3">CAFÉ &amp; HIMALAYAN ROASTERY</text>
+</svg>
